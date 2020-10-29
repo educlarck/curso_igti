@@ -17,6 +17,7 @@ O jogo termina se o jogador acertar o numero ou acabarem o numero de tentativas.
 8º passo: Se a tentativa estiver errada e ainda existam tentativas
     - Informar se a tentativa é maior ou menor que o numero sorteado
     - Pedir outra tentativa para o jogador
+    Teste do github
 
 */
 var readline = require("readline");
