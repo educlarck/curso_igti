@@ -1,0 +1,45 @@
+.body {
+   text-align: center;
+   color: darkblue;
+}
+
+.div-input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.input {
+    font-size: 20px;
+    border: solid 2px darkgoldenrod;
+    border-radius: 7px;
+}
+
+.btn-calcular {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: darkgoldenrod;
+    width: 150px;
+    height: 50px;
+
+}
+
+.resultado {
+    font-size: 30px;
+    color: brown;
+}
+
+.btn-limpar {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background: whitesmoke;
+    width: 150px;
+    height: 50px;
+}

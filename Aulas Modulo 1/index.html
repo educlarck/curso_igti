@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Título da pagina</title>
+        <meta charset= "utf-8">
+        <link rel="stylesheet" href="index.css">
+        <script>
+            //alert("O maior do Nordeste");
+            console.log("Vamos sport");
+        </script>
+    </head>
+    <body>
+       
+        Sport Club do Recife
+    </body>
+
+    <script src="index.js">    </script>
+
+    <br> <br>
+    <img width="200" src="https://cdn.folhape.com.br/upload/dn_arquivo/2018/01/15156297123871-arte2sport.jpg">
+
+    <h1 class="texto-header">Campeão Braseileiro A 1987</h1>
+    <h2 id="texto2">Campeão da copa do Brasil 2008</h2>
+    <h3 class="texto-header">Tri Campeão da copa do Nordeste</h3>
+    <h4 class="texto-header">Campeão Brasileiro B 1990</h4>
+    <h5 class="texto-header">Campeão Pernambucano 42 vezes</h5>
+    <h6 class="texto-header">Campeão no centenario</h6>
+
+    <script>
+        setTimeout(function(){
+            console.log("Função que roda depois do tempo determinado em milisegundos, passou 1 segunso");
+        }, 1000);
+
+    </script>
+
+    <p class="borda paragrafo">O Sport Club do Recife (conhecido como Sport e Sport Recife, de monogramo SCR) é um clube brasileiro de desportos, situado no bairro da Ilha do Retiro, cidade do Recife, estado de Pernambuco. Foi fundado em 13 de maio de 1905</p>
+    <br> <br>
+    <br>
+
+    <p class= "paragrafo" id="paragrafo2">É conhecido pelo seu símbolo maior: o leão; suas cores oficiais são o preto e o encarnado e, desde o ano de 1937, manda seus jogos na Ilha do Retiro onde é apoiado pela massa sportista. O Leão da Ilha é um dos clubes mais populares do Brasil</p>
+
+    <a href="https://sportrecife.com.br/">site oficial do sport</a>
+
+    <br> <br>
+
+    <input type="text"> <br> <br>
+    <input type="number"> <br> <br>
+
+    <h4>Qual sua camisa(s) preferida?</h4>
+    <input type="checkbox" id="camisa1">
+    <lanel for="camisa1">Camisa vermelha</lanel>
+    <input type="checkbox" id="camisa2"> 
+    <lanel for="camisa2">Camisa Preta</lanel>
+    <input type="checkbox" id="camisa3"> 
+    <lanel for="camisa3">Camisa Branca</lanel>
+    <br> <br>
+
+    <h4>Qual seu tamanho de camisa?</h4>
+    <input type="radio" id="camisa1" value="camisa1" name="tamanho">
+    <lanel for="camisa1">P</lanel>
+    <input type="radio" id="camisa2" value="camisa2" name="tamanho"> 
+    <lanel for="camisa2">M</lanel>
+    <input type="radio" id="camisa3" value="camisa3" name="tamanho"> 
+    <lanel for="camisa3">G</lanel>
+    <br> <br>
+
+
+    <input type="text">
+
+    <h4>Escolha sua camisa:</h4>
+    <select>
+        <option value="camisa vermelha" selected>camisa vermelha</option>
+        <option value="camisa preta">camisa preta</option>
+        <option value="camisa branca">camisa branca</option>
+    </select>
+
+    <br>
+    <h4>Escolha seus Jogadores:</h4>
+    <select multiple>
+        <option value="Luan Poli" selected>Luan Poli</option>
+        <option value="Marcão">Marcão</option>
+        <option value="Thiago Neves">Thiago Neves</option>
+        <option value="Brocador">Brocador</option>
+    </select>
+    <br> <br>
+    <h4>Qual sua opinião sobre o time?</h4>
+    <textarea rows="5" cols="20">
+Fale aqui
+    </textarea>
+    <br> <br>
+    
+    <button type="button" onclick="clickBotao()">Pelo sport nada??</button>
+    <button type="button" onclick="clickBotao2()">Pelo sport tudo??</button>
+
+    <br> <br>
+
+    <img id = "lampada" src = "lampada_desligada.gif">
+    <br>
+    <button type = "button" onclick ="ligarLampada()"> Ligar Lampada</button>
+    <button type = "button" onclick ="desligarLampada()"> Desligar Lampada</button>
+    <br> <br>
+
+    <button type = "button" onclick ="adicionarElemento()"> adicionarElemento</button>
+    <button type = "button" onclick ="removerElementos()"> removerElementos</button>
+    <br>
+
+    <div id="div-elementos"></div>
+
+</body>
+
+ </html>
